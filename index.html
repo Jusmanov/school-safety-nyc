@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="https://icons.veryicon.com/png/o/object/item-icons/sunglasses-21.png"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NYC SSI</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class = "menu">
+    <h2>NYC School Safety Index</h2>
+    <p>A map indicating the safety level of over 500 schools around the city of New York. Schools categorized by total recorded crime count.</p>
+    <p>Click on any location to view a school's name and total crime count (on record).</p>
+    <p class = "cerulean">Cerulean Blue: <5 recorded crimes within school (or N/A)</p>
+    <p class = "pantone-yellow">Pantone Yellow: 5 - 15 recorded crimes within school</p>
+    <p class = "brink-pink">Brink Pink: 15+ recorded crimes within school</p>
+  </div>
+
+  <div class = "counts">
+    <p id = "blue-count">325</p>
+    <p id = "yellow-count">6</p>
+    <p id = "pink-count">162</p>
+  </div>
+
+  
+  <div class = "map-div">
+    <div id="map"></div>
+  </div>
+
+
+  <div class = "table-intro">
+    <h3>Everybody deserves to know how <strong>safe</strong> their children's schools are.</h3>
+    <p>View a data-driven NYC school safety table - the same data we used to map out and categorize schools in NYC ↓ </p>
+  </div>
+  
+    <div><iframe width="99.5%" title="2010 - 2016 School Safety Report" height="700" src="https://data.cityofnewyork.us/w/qybk-bjjc/25te-f2tw?cur=Omw4CSzrtZR&from=root" frameborder="0"scrolling="no"><a href="https://data.cityofnewyork.us/Education/2010-2016-School-Safety-Report/qybk-bjjc" title="2010 - 2016 School Safety Report" target="_blank">2010 - 2016 School Safety Report</a></iframe>
+
+
+  </div>
+  
+  
+
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
