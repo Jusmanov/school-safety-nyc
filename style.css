@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+	margin:0;
+	background-color: #292929;
+}
+
+.menu {
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 200px;
+	z-index: 2;
+	width: 330px;
+	height: 320px;
+	background-color: #0a0a0a;
+	border-radius: 10px;
+	border: 3px solid #262626;
+	transition: ease-out 0.5s;
+}
+
+.menu {
+	padding-left: 40px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.menu:hover {
+	cursor: default;
+	transform: scale(1.02);
+	transition: ease-in-out 0.45s;
+	border: 3px solid #FAFAFA;
+}
+
+.menu h2{
+	color: #FAFAFA;
+	margin-bottom: 0;
+}
+
+.menu p{
+	color: #dedede;
+	font-size: 14px;
+}
+
+.menu .cerulean{
+	color: #08AEE0;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.menu .pantone-yellow{
+	color: #FFE32B;
+	font-weight: 600;
+}
+
+.menu .brink-pink{
+	color: #fe4876;
+	font-weight: 600;
+}
+
+
+.counts {
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	width: 150px;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Noto Sans", sans-serif;
+	top: 70%;
+	left: 1.5%;
+	background-color: #0a0a0a;
+	border: 3px solid #262626;
+	border-radius: 10px;
+	transition: ease-out 0.5s;
+}
+
+.counts p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.counts:hover {
+	cursor: default;
+	transform: scale(1.02);
+	transition: ease-in-out 0.45s;
+	border: 3px solid #FAFAFA;
+}
+
+#blue-count{
+	color: #08AEE0;
+}
+
+#yellow-count{
+	color: #FFE32B;
+}
+
+#pink-count{
+	color: #fe4876;
+}
+
+
+
+.map-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+#map {
+	height: 760px;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Change cursor when mousing over clickable layer */
+.leaflet-clickable {
+	cursor: cell !important;
+}
+/* Change cursor when over entire map */
+.leaflet-container {
+	cursor: cell !important;
+}
+
+
+
+.table-intro {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: baseline;
+	align-items: center;
+	height: 220px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #090909;
+	border-top: 5px solid #262626;
+}
+
+.table-intro h3{
+	text-decoration: none;
+	font-weight: 500;
+	color: #FAFAFA;
+	margin-bottom: 0;
+	font-size: 28px;
+}
+
+.table-intro p{
+	color: #dedede;
+	font-size: 24px;
+	margin-top: 0;2
+}
+
+
+
+iframe {
+	border-top: 10px solid #262626;
+}
